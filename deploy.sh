@@ -21,6 +21,6 @@ git commit -m "Deploy website $(date '+%Y-%m-%d %H:%M')"
 git remote add origin "https://github.com/$REPO.git"
 git push --force origin main
 
-echo "✅ Deployed. Live at: https://epargn.com"
+echo "✅ Deployed. Live at: https://epargnplus.com"
 echo "   (DNS propagation: 2–24h after first deploy)"
 rm -rf "$TMP"
